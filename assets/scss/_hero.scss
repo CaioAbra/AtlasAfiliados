@@ -25,16 +25,17 @@
 
     h1 {
         color: var(--grey);
+        font-size: 56px;
 
         @media screen and (max-width:1366px) {
-            font-size: 2rem;
+            font-size: 22px;
         }
     }
 
     p {
         color: var(--grey-30);
 
-        font-size: 24px;
+        font-size: 26px;
         // max-width: ;
 
         @media screen and (max-width:1366px) {
@@ -42,7 +43,7 @@
         }
 
         &:last-child {
-            font-size: 20px;
+            font-size: 22px;
 
             @media screen and (max-width:1366px) {
                 font-size: 14px;
