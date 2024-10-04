@@ -1,6 +1,7 @@
 :root {
   --grey: #F4F4F4;
   --grey-30: #B9B9B9;
+  --grey-60: #848484;
   --black-80: #141414;
   --orange: #F08022;
 }
@@ -127,10 +128,64 @@ span {
 .niveis h2 {
   color: var(--grey);
   font-size: 32px;
+  margin-bottom: 4rem;
 }
 @media screen and (max-width: 1366px) {
   .niveis h2 {
     font-size: 20px;
+  }
+}
+.niveis .card {
+  background: rgba(109, 109, 109, 0.1);
+  border-radius: 21px;
+  border: solid 1px #6D6D6D;
+}
+.niveis .card .card-title {
+  color: var(--grey);
+  font-size: 30px;
+}
+@media screen and (max-width: 1366px) {
+  .niveis .card .card-title {
+    font-size: 18px;
+  }
+}
+.niveis .card .card-text {
+  color: var(--grey-30);
+  font-size: 22px;
+  line-height: 30px;
+}
+@media screen and (max-width: 1366px) {
+  .niveis .card .card-text {
+    font-size: 12px;
+  }
+}
+.niveis .card .card-text:last-child {
+  color: var(--grey-60);
+  font-size: 16px;
+  line-height: normal;
+}
+@media screen and (max-width: 1366px) {
+  .niveis .card .card-text:last-child {
+    font-size: 12px;
+  }
+}
+.niveis .card > .no-gutters .col-md-8 {
+  display: flex;
+  align-items: center;
+}
+.niveis .card.premio .card-body {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+@media screen and (min-width: 1366px) {
+  .niveis .card.premio .card-body {
+    height: 15.125rem;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .niveis .card.premio .card-body img {
+    transform: translateY(-36%);
+    position: relative;
   }
 }
 
