@@ -206,10 +206,20 @@ span {
     position: relative;
   }
 }
+@media screen and (min-width: 1366px) {
+  .niveis .card.premio .card-body img.premioMestre {
+    transform: translateY(-48%);
+    position: relative;
+  }
+}
 .niveis .card .nivelCard {
   width: 100%;
   height: 100%;
 }
+.niveis .row.mb-5 {
+  overflow-y: hidden;
+}
+
 * {
   box-sizing: border-box;
 }

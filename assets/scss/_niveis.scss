@@ -96,6 +96,13 @@
                             position: relative;
                         }
                     }
+
+                    &.premioMestre{
+                        @media screen and (min-width:1366px) {
+                            transform: translateY(-48%);
+                            position: relative;
+                        }
+                    }
                 }
             }
         }
@@ -107,4 +114,9 @@
     }
 
     .dolar_um{}
+
+
+    .row.mb-5{
+        overflow-y: hidden;
+    }
 }
