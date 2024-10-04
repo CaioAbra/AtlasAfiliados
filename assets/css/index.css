@@ -363,10 +363,14 @@ span {
     height: auto !important;
   }
   .slidestyle img {
-    width: 100%; /* Make the image fill the container width */
-    height: 100%; /* Make the image fill the container height */
-    object-fit: cover; /* Ensure the image covers the container without overflow */
-    object-position: center; /* Center the image within the container */
+    width: 100%;
+    /* Make the image fill the container width */
+    height: 100%;
+    /* Make the image fill the container height */
+    object-fit: cover;
+    /* Ensure the image covers the container without overflow */
+    object-position: center;
+    /* Center the image within the container */
     border-radius: 40px !important;
   }
   .pagination-container {
@@ -442,14 +446,19 @@ span {
 }
 
 .slidestyle img {
-  width: 100%; /* Make the image fill the container width */
-  height: 100%; /* Make the image fill the container height */
-  object-fit: cover; /* Ensure the image covers the container without overflow */
-  object-position: center; /* Center the image within the container */
+  width: 100%;
+  /* Make the image fill the container width */
+  height: 100%;
+  /* Make the image fill the container height */
+  object-fit: cover;
+  /* Ensure the image covers the container without overflow */
+  object-position: center;
+  /* Center the image within the container */
   border-radius: 40px !important;
 }
 
-.pre, .nex {
+.pre,
+.nex {
   display: flex;
   justify-content: center;
 }
@@ -490,6 +499,71 @@ span {
 
 .fts-8px {
   cursor: pointer;
+}
+
+section.carousel {
+  position: relative;
+  overflow: hidden;
+}
+section.carousel:before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(./../../src/img/bg/BG01-Afiliados.png) no-repeat center center;
+  background-size: cover;
+  filter: blur(60px);
+  z-index: -1;
+}
+@media screen and (min-width: 1024px) {
+  section.carousel:before {
+    background-size: 50%;
+    top: 0;
+  }
+}
+section.carousel .container {
+  z-index: 1;
+}
+section.carousel h2 {
+  color: var(--grey);
+}
+section.carousel p {
+  color: var(--grey-30);
+  max-width: 26rem;
+  margin: auto;
+}
+section.carousel .RowNiveis {
+  justify-content: center;
+}
+section.carousel .nivel-card {
+  position: relative;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+section.carousel .nivel-card:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #6d6d6d 0%, #3c3c3c 100%);
+}
+section.carousel .nivel-card h5 {
+  color: var(--grey-30);
+  font-size: 16px;
+  margin: 0;
+}
+@media screen and (max-width: 1024px) {
+  section.carousel .nivel-card h5 {
+    font-size: 14px;
+  }
 }
 
 * {
