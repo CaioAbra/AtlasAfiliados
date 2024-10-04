@@ -157,7 +157,7 @@
 
   .slider-container {
     width: 385px !important;
-    height: 400px;
+    height: 542px;
   }
 
   .swiper-slide {
@@ -364,24 +364,14 @@ section.carousel {
   .nivel-card {
 
     position: relative;
-    background-color: #1e1e1e; // cor de fundo semelhante
+    background-color: rgba(38, 38, 38, 0.5); // cor de fundo semelhante
     border-radius: 10px;
     // color: #fff;
     // padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     overflow: hidden;
 
-    &:before {
-      content: '';
-      position: absolute;
-      top: -2px;
-      right: -2px;
-      bottom: -2px;
-      left: -2px;
-      z-index: -1;
-      border-radius: inherit;
-      background: linear-gradient(90deg, #6d6d6d 0%, #3c3c3c 100%);
-    }
+    
 
     h5 {
       color: var(--grey-30);

@@ -22,9 +22,11 @@
     }
 
     .card {
-        background: rgba(60, 60, 60, .5);
+        background: rgba(20, 20, 20, 0.7);
         border-radius: 21px;
         border: solid 1px #6D6D6D;
+
+
 
         .card-title {
             color: var(--grey);
@@ -134,6 +136,8 @@
             width: 100%;
             height: 100%;
         }
+
+
     }
 
     // .dolar_um {}
@@ -141,5 +145,23 @@
 
     .row.mb-5 {
         overflow-y: hidden;
+    }
+
+    .card-blur-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: inherit; // Pega o mesmo background do body ou seção pai
+        // filter: blur(10px); // Aplica o desfoque ao background
+        z-index: 1; // Para ficar atrás dos itens de conteúdo
+        backdrop-filter: blur(20px)
+
+    }
+
+    .no-gutters {
+        position: relative;
+        z-index: 2;
     }
 }

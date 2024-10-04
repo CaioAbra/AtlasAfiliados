@@ -140,7 +140,7 @@ span {
   }
 }
 .niveis .card {
-  background: rgba(60, 60, 60, 0.5);
+  background: rgba(20, 20, 20, 0.7);
   border-radius: 21px;
   border: solid 1px #6D6D6D;
 }
@@ -235,6 +235,20 @@ span {
 }
 .niveis .row.mb-5 {
   overflow-y: hidden;
+}
+.niveis .card-blur-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  z-index: 1;
+  backdrop-filter: blur(20px);
+}
+.niveis .no-gutters {
+  position: relative;
+  z-index: 2;
 }
 
 @media (max-width: 1196px) {
@@ -357,7 +371,7 @@ span {
   }
   .slider-container {
     width: 385px !important;
-    height: 400px;
+    height: 542px;
   }
   .swiper-slide {
     height: auto !important;
@@ -539,21 +553,9 @@ section.carousel .RowNiveis {
 }
 section.carousel .nivel-card {
   position: relative;
-  background-color: #1e1e1e;
+  background-color: rgba(38, 38, 38, 0.5);
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   overflow: hidden;
-}
-section.carousel .nivel-card:before {
-  content: "";
-  position: absolute;
-  top: -2px;
-  right: -2px;
-  bottom: -2px;
-  left: -2px;
-  z-index: -1;
-  border-radius: inherit;
-  background: linear-gradient(90deg, #6d6d6d 0%, #3c3c3c 100%);
 }
 section.carousel .nivel-card h5 {
   color: var(--grey-30);
