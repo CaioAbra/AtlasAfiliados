@@ -18,3 +18,15 @@ body {
     overflow-x: hidden;
     background-color: var(--black-80);
 }
+
+footer {
+    background-color: var(--grey-50);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: var(--grey-30);
+    font-size: 12;
+
+    @media screen and (min-width:1024px) {
+        
+    }
+}
