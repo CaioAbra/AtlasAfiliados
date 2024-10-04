@@ -1,4 +1,4 @@
-@import "root", "fonts", "text";
+@import "root", "fonts", "text", "hero", "niveis";
 
 * {
     box-sizing: border-box;
@@ -16,5 +16,5 @@ body {
     width: 100%;
     max-width: 100vw;
     overflow-x: hidden;
-    // background-color: var(--bg-color);
+    background-color: var(--black-80);
 }
