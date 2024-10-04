@@ -74,13 +74,37 @@
                         transform: translateY(-36%);
                         position: relative;
                     }
+
+
+                    &.premioDois {
+                        @media screen and (min-width:1366px) {
+                            transform: translateY(-48%);
+                            position: relative;
+                        }
+                    }
+
+                    &.premioDima {
+                        height: 100%;
+                        width: 100%;
+
+                        border-radius: 20px;
+
+                        @media screen and (min-width:1366px) {}
+
+                        @media screen and (min-width:1366px) {
+                            transform: translateY(0%);
+                            position: relative;
+                        }
+                    }
                 }
             }
         }
 
-        .nivelCard{
+        .nivelCard {
             width: 100%;
             height: 100%;
         }
     }
+
+    .dolar_um{}
 }

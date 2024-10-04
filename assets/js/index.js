@@ -3,17 +3,23 @@ $(document).ready(function () {
     function trocarImagemPorLargura() {
         if ($(window).width() < 1024) {
             $('.nvlPrata').attr('src', './src/img/cards/nvlPrataMobi.png');
-            $('.nvlOuro').attr('src', './src/img/cards/nvlOuro.png');
+            $('.nvlOuro').attr('src', './src/img/cards/nvlOuroMobi.png');
+            $('.nvlDima').attr('src', './src/img/cards/nvlDimaMobi.png');
 
             $('.premioUm').attr('src', './src/img/cards/premioUmMob.png');
+            $('.premioDois').attr('src', './src/img/cards/premioOuroMobi.png');
+            $('.premioDima').attr('src', './src/img/cards/premioDimaMobi.png');
 
 
 
         } else {
             $('.nvlPrata').attr('src', './src/img/cards/prata.png');
-            $('.nvlOuro').attr('src', './src/img/cards/nvlOuroMob.png');
+            $('.nvlOuro').attr('src', './src/img/cards/nvlOuro.png');
+            $('.nvlDima').attr('src', './src/img/cards/nvlDima.png');
 
             $('.premioUm').attr('src', './src/img/cards/premioUm.png');
+            $('.premioDois').attr('src', './src/img/cards/premioOuro.png');
+            $('.premioDima').attr('src', './src/img/cards/premioDima.png');
 
         }
     }
