@@ -259,6 +259,15 @@ span {
     min-height: 423px;
   }
 }
+.niveis .imgAviao {
+  position: absolute;
+  z-index: 3;
+  /* height: 264px; */
+  width: 480px;
+  left: 41%;
+  transform: translateY(278%);
+  /* bottom: -50rem;*/
+}
 
 @media (max-width: 1196px) {
   .coon {
