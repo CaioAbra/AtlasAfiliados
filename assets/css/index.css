@@ -251,7 +251,10 @@ span {
   position: relative;
   z-index: 2;
 }
-@media screen and (min-width: 1024px) {
+.niveis .cardNivel3 {
+  z-index: 0;
+}
+@media screen and (min-width: 1366px) {
   .niveis .cardNivel3 {
     min-height: 423px;
   }
@@ -267,6 +270,38 @@ span {
   left: 41%;
   transform: translateY(278%);
   /* bottom: -50rem;*/
+}
+.niveis .dolarUm {
+  position: absolute;
+  z-index: 3;
+  width: 16rem;
+  transform: translate(-6%, 310%);
+}
+@media screen and (min-width: 768px) {
+  .niveis .dolarUm {
+    transform: translate(-6%, 184%);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .niveis .dolarUm {
+    transform: translate(10%, 225%);
+  }
+}
+.niveis .dolarDois {
+  position: absolute;
+  z-index: 1;
+  width: 16rem;
+  transform: translate(86%, 443%);
+}
+@media screen and (min-width: 768px) {
+  .niveis .dolarDois {
+    transform: translate(208%, 255%);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .niveis .dolarDois {
+    transform: translate(249%, 338%);
+  }
 }
 
 @media (max-width: 1196px) {
