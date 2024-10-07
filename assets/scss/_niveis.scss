@@ -85,7 +85,7 @@
 
 
                 @media screen and (min-width:1366px) {
-                    height: 16.125rem;
+                    height: 18rem;
 
 
                     &.nvlLendario {
@@ -95,14 +95,14 @@
 
                 img {
                     @media screen and (min-width:1366px) {
-                        transform: translateY(-36%);
+                        transform: translateY(-24%);
                         position: relative;
                     }
 
 
                     &.premioDois {
                         @media screen and (min-width:1366px) {
-                            transform: translateY(-45%);
+                            transform: translateY(-37.5%);
                             position: relative;
                         }
                     }
@@ -125,7 +125,7 @@
                         border-radius: 30px;
 
                         @media screen and (min-width:1366px) {
-                            transform: translateY(-47%);
+                            transform: translateY(-40%);
                             position: relative;
                             border-radius: 20px;
                         }
@@ -228,7 +228,11 @@
         }
 
         @media screen and (min-width:1024px) {
-            transform: translate(249%, 338%);
+            transform: translate(400%, 508%);
+        }
+
+        @media screen and (min-width:1366px) {
+            transform: translate(490%, 647%);
         }
     }
 

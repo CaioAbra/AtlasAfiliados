@@ -203,7 +203,7 @@ span {
 }
 @media screen and (min-width: 1366px) {
   .niveis .card.premio .card-body {
-    height: 16.125rem;
+    height: 18rem;
   }
   .niveis .card.premio .card-body.nvlLendario {
     height: 28.125rem;
@@ -211,13 +211,13 @@ span {
 }
 @media screen and (min-width: 1366px) {
   .niveis .card.premio .card-body img {
-    transform: translateY(-36%);
+    transform: translateY(-24%);
     position: relative;
   }
 }
 @media screen and (min-width: 1366px) {
   .niveis .card.premio .card-body img.premioDois {
-    transform: translateY(-45%);
+    transform: translateY(-37.5%);
     position: relative;
   }
 }
@@ -237,7 +237,7 @@ span {
 }
 @media screen and (min-width: 1366px) {
   .niveis .card.premio .card-body img.premioMestre {
-    transform: translateY(-47%);
+    transform: translateY(-40%);
     position: relative;
     border-radius: 20px;
   }
@@ -321,7 +321,12 @@ span {
 }
 @media screen and (min-width: 1024px) {
   .niveis .dolarDois {
-    transform: translate(249%, 338%);
+    transform: translate(400%, 508%);
+  }
+}
+@media screen and (min-width: 1366px) {
+  .niveis .dolarDois {
+    transform: translate(490%, 647%);
   }
 }
 .niveis .text-muted {
