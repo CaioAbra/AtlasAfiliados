@@ -617,10 +617,20 @@ section.carousel .container {
 section.carousel h2 {
   color: var(--grey);
 }
+@media screen and (max-width: 1024px) {
+  section.carousel h2.duvida {
+    font-size: 18px;
+  }
+}
 section.carousel p {
   color: var(--grey-30);
   max-width: 26rem;
   margin: auto;
+}
+@media screen and (max-width: 1024px) {
+  section.carousel p.duvida {
+    font-size: 14px;
+  }
 }
 section.carousel .RowNiveis {
   justify-content: center;
