@@ -152,32 +152,42 @@ span {
 }
 .niveis .card .card-title {
   color: var(--grey);
-  font-size: 30px;
+  font-size: 22px;
 }
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 768px) {
   .niveis .card .card-title {
-    font-size: 18px;
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .niveis .card .card-title {
+    font-size: 30px;
   }
 }
 .niveis .card .card-text {
   color: var(--grey-30);
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 14px;
 }
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 768px) {
   .niveis .card .card-text {
-    font-size: 12px;
+    font-size: 22px;
+    line-height: normal;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .niveis .card .card-text {
+    font-size: 24px;
     line-height: normal;
   }
 }
 .niveis .card .card-text:last-child {
   color: var(--grey-60);
-  font-size: 16px;
+  font-size: 12px;
   line-height: normal;
 }
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 1366px) {
   .niveis .card .card-text:last-child {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 .niveis .card > .no-gutters .col-md-8 {
@@ -281,12 +291,13 @@ span {
 .niveis .dolarUm {
   position: absolute;
   z-index: 3;
-  width: 16rem;
-  transform: translate(-6%, 310%);
+  width: 9rem;
+  transform: translate(-3%, 660%);
 }
 @media screen and (min-width: 768px) {
   .niveis .dolarUm {
     transform: translate(-6%, 184%);
+    width: 16rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -297,8 +308,8 @@ span {
 .niveis .dolarDois {
   position: absolute;
   z-index: 1;
-  width: 16rem;
-  transform: translate(86%, 443%);
+  width: 9rem;
+  transform: translate(193%, 806%);
 }
 @media screen and (min-width: 768px) {
   .niveis .dolarDois {

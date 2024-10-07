@@ -30,31 +30,40 @@
 
         .card-title {
             color: var(--grey);
-            font-size: 30px;
+            font-size: 22px;
 
-            @media screen and (max-width:1366px) {
-                font-size: 18px;
+            @media screen and (min-width:768px) {
+                font-size: 26px;
+            }
+
+            @media screen and (min-width:1366px) {
+                font-size: 30px;
             }
         }
 
         .card-text {
             color: var(--grey-30);
-            font-size: 22px;
-            line-height: 30px;
+            font-size: 14px;
+            // line-height: 30px;
 
 
-            @media screen and (max-width:1366px) {
-                font-size: 12px;
+            @media screen and (min-width:768px) {
+                font-size: 22px;
+                line-height: normal;
+            }
+
+            @media screen and (min-width:1366px) {
+                font-size: 24px;
                 line-height: normal;
             }
 
             &:last-child {
                 color: var(--grey-60);
-                font-size: 16px;
+                font-size: 12px;
                 line-height: normal;
 
-                @media screen and (max-width:1366px) {
-                    font-size: 12px;
+                @media screen and (min-width:1366px) {
+                    font-size: 16px;
                 }
 
             }
@@ -194,11 +203,12 @@
     .dolarUm {
         position: absolute;
         z-index: 3;
-        width: 16rem;
-        transform: translate(-6%, 310%);
+        width: 9rem;
+        transform: translate(-3%, 660%);
 
         @media screen and (min-width:768px) {
             transform: translate(-6%, 184%);
+            width: 16rem;
         }
 
         @media screen and (min-width:1024px) {
@@ -209,8 +219,8 @@
     .dolarDois {
         position: absolute;
         z-index: 1;
-        width: 16rem;
-        transform: translate(86%, 443%);
+        width: 9rem;
+        transform: translate(193%, 806%);
 
 
         @media screen and (min-width:768px) {
