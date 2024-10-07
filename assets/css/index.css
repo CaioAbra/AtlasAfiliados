@@ -183,13 +183,13 @@ span {
     line-height: normal;
   }
 }
-.niveis .card .card-text:last-child {
+.niveis .card .card-text:last-child small.text-muted {
   color: var(--grey-60);
   font-size: 12px;
   line-height: normal;
 }
 @media screen and (min-width: 1366px) {
-  .niveis .card .card-text:last-child {
+  .niveis .card .card-text:last-child small.text-muted {
     font-size: 16px;
   }
 }
