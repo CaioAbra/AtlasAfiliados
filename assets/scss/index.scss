@@ -24,9 +24,14 @@ footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
     color: var(--grey-30);
-    font-size: 12;
+    font-size: 12px;
 
     @media screen and (min-width:1024px) {
-        
+        font-size: 16px;
+    }
+
+    & .FooterDesk {
+        align-items: center;
+        justify-content: center;
     }
 }
