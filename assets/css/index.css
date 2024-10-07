@@ -31,7 +31,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   font-family: "SpaceGrotesk-bold";
 }
@@ -40,6 +39,7 @@ p,
 a,
 ul,
 li,
+h5,
 span {
   font-family: "SpaceGrotesk-Regular";
 }
@@ -142,7 +142,7 @@ span {
 }
 .niveis .card {
   background: rgba(20, 20, 20, 0.7);
-  border-radius: 21px;
+  border-radius: 20px;
   border: solid 1px #6D6D6D;
 }
 .niveis .card .card-title {
@@ -185,7 +185,7 @@ span {
 }
 @media screen and (min-width: 1366px) {
   .niveis .card.premio .card-body {
-    height: 15.125rem;
+    height: 16.125rem;
   }
   .niveis .card.premio .card-body.nvlLendario {
     height: 28.125rem;
@@ -199,7 +199,7 @@ span {
 }
 @media screen and (min-width: 1366px) {
   .niveis .card.premio .card-body img.premioDois {
-    transform: translateY(-48%);
+    transform: translateY(-45%);
     position: relative;
   }
 }
@@ -219,8 +219,9 @@ span {
 }
 @media screen and (min-width: 1366px) {
   .niveis .card.premio .card-body img.premioMestre {
-    transform: translateY(-48%);
+    transform: translateY(-47%);
     position: relative;
+    border-radius: 20px;
   }
 }
 .niveis .card.premio .card-body img.premioLendario {
@@ -246,6 +247,7 @@ span {
   background: inherit;
   z-index: 1;
   backdrop-filter: blur(20px);
+  border-radius: 21px;
 }
 .niveis .no-gutters {
   position: relative;
@@ -267,7 +269,7 @@ span {
   z-index: 3;
   /* height: 264px; */
   width: 480px;
-  left: 41%;
+  left: 38%;
   transform: translateY(278%);
   /* bottom: -50rem;*/
 }
@@ -302,6 +304,9 @@ span {
   .niveis .dolarDois {
     transform: translate(249%, 338%);
   }
+}
+.niveis .text-muted {
+  color: var(--grey-60) !important;
 }
 
 @media (max-width: 1196px) {
@@ -614,6 +619,7 @@ section.carousel .nivel-card h5 {
   color: var(--grey-30);
   font-size: 16px;
   margin: 0;
+  font-weight: 400;
 }
 @media screen and (max-width: 1024px) {
   section.carousel .nivel-card h5 {
