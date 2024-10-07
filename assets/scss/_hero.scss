@@ -46,11 +46,11 @@
             font-size: 24px;
         }
 
-        &:last-child {
+        &.legal {
             font-size: 14px;
 
             @media screen and (min-width:1366px) {
-                font-size: 22px;
+                font-size: 20px;
             }
 
         }
@@ -70,7 +70,7 @@
             padding: .9rem 0;
             // margin-top: 1rem;
             width: 80%;
-            margin: 2rem 10%;
+            // margin: 2rem 10%;
             font-size: 18px;
         }
 
@@ -83,5 +83,11 @@
         z-index: -1;
 
         @media screen and (min-width:1024px) {}
+    }
+
+    .deskTopGiant {
+        h1 {
+            font-size: 50px;
+        }
     }
 }

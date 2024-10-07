@@ -92,12 +92,12 @@ span {
     font-size: 24px;
   }
 }
-.hero p:last-child {
+.hero p.legal {
   font-size: 14px;
 }
 @media screen and (min-width: 1366px) {
-  .hero p:last-child {
-    font-size: 22px;
+  .hero p.legal {
+    font-size: 20px;
   }
 }
 .hero .btn.btn-hero {
@@ -114,7 +114,6 @@ span {
   .hero .btn.btn-hero {
     padding: 0.9rem 0;
     width: 80%;
-    margin: 2rem 10%;
     font-size: 18px;
   }
 }
@@ -124,6 +123,10 @@ span {
 .hero img.carro {
   z-index: -1;
 }
+.hero .deskTopGiant h1 {
+  font-size: 50px;
+}
+
 .niveis {
   margin-top: 3rem;
   background-image: url("./../../src/img/bg/BG01-Afiliados.png"), url("./../../src/img/bg/BG01-Afiliados.png"), url("./../../src/img/bg/BG01-Afiliados.png");
