@@ -71,16 +71,16 @@ span {
 }
 .hero h1 {
   color: var(--grey);
-  font-size: 56px;
+  font-size: 40px;
 }
 @media screen and (max-width: 1366px) {
   .hero h1 {
-    font-size: 22px;
+    font-size: 32px;
   }
 }
 .hero p {
   color: var(--grey-30);
-  font-size: 26px;
+  font-size: 24px;
 }
 @media screen and (max-width: 1366px) {
   .hero p {
